@@ -1,0 +1,42 @@
+@media screen and (max-width:1176px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        position: relative;
+    }
+
+    header > h1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    #um {
+        padding: 35px;
+    }
+
+    .texto {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .texto > p {
+        text-align: center;
+    }
+
+    .imagem {
+        flex: 100%;
+        margin: 0 5%;
+        text-align: center;
+    }
+
+    .whats {
+        display: none;
+    }
+
+    .card {
+       width: 100%;
+    }
+}
