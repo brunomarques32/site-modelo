@@ -62,7 +62,7 @@ nav > a:hover {
     background-color: #ff2978;
 }
 
-section {
+#um {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,3 +107,41 @@ section {
     flex: 40%;
     text-align: center;
 }
+
+#dois {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+#dois > h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", sans-serif; 
+    color: #180f4a;
+}
+
+.serviços {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card h3 {
+    padding: 20px;
+}
+
